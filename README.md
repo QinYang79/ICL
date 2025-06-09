@@ -15,14 +15,21 @@ The illustration of our Test-time Human-centered Interaction (THI) module. THI i
 The illustration of our RDA. The purpose of RDA is to supplement more details to the original training texts through human-centered VQA, improving the discriminability of texts. In addition, to enhance diversity, RDA maximizes diversity through the Decomposition-Rewriting-Reorganization strategy.
 <img src="./src/RDA.png" />
 
-
-
-
+For all augmentation data, see [RDA_data.zip](./RDA_data.zip)
 
 ## Training and Evaluation
 
 ### Training new models via RDA
 
+Modify the  ```self.anno_path``` in the ```datasets/cuhkpedes.py,icfgpedes.py, rstpreid.py, ufine.py```. You have to replace the path to the json file in RDE_data.
+
+```
+sh run_rde.sh
+```
+
+If you use pre-trained parameters to initialize CLIP you must '+pre' in args.loss_names and modify the relevant path variables in main.
+
+If you use pre-trained parameters to initialize CLIP you must use '+pre' in args.loss_names and modify the relevant the path variable ```model_pre``` in ```main.py```. In our experiments, we use pre-trained parameters from [MLLM4Text-ReID](https://github.com/WentaoTan/MLLM4Text-ReID).
 ```
 sh run_rde.sh
 ```
