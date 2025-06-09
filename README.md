@@ -10,6 +10,7 @@ PyTorch implementation for [Human-centered Interactive Learning via MLLMs for Te
 ## Requirements and Datasets
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory/)
 - [vllm](https://github.com/vllm-project/vllm)
+- qwen_vl_utils
 - [CUHK-PEDES, ICFG-PEDES, RSTPReid,](https://github.com/anosorae/IRRA/) [UFine6926](https://github.com/Zplusdragon/UFineBench/)
 - Others as [RDE](https://github.com/QinYang79/RDE)
 
