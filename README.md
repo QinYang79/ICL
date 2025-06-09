@@ -3,6 +3,10 @@ PyTorch implementation for [Human-centered Interactive Learning via MLLMs for Te
 
 [Supplementary Material](https://openaccess.thecvf.com/content/CVPR2025/supplemental/Qin_Human-centered_Interactive_Learning_CVPR_2025_supplemental.pdf)
 
+## New!
+- We will release the RDA pre-trained model weights and training logs. Come soon!
+- 2025/6/9, we released the code of ICL.
+
 ## Requirements and Datasets
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory/)
 - [vllm](https://github.com/vllm-project/vllm)
