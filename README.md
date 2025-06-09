@@ -1,5 +1,7 @@
 ## Introduction
-PyTorch implementation for [Human-centered Interactive Learning via MLLMs for Text-to-Image Person Re-identification](https://openaccess.thecvf.com/content/CVPR2025/papers/Qin_Human-centered_Interactive_Learning_via_MLLMs_for_Text-to-Image_Person_Re-identification_CVPR_2025_paper.pdf) (CVPR 2025).
+PyTorch implementation for [Human-centered Interactive Learning via MLLMs for Text-to-Image Person Re-identification](https://openaccess.thecvf.com/content/CVPR2025/papers/Qin_Human-centered_Interactive_Learning_via_MLLMs_for_Text-to-Image_Person_Re-identification_CVPR_2025_paper.pdf) (CVPR 2025). 
+
+[Supplementary Material](https://openaccess.thecvf.com/content/CVPR2025/supplemental/Qin_Human-centered_Interactive_Learning_CVPR_2025_supplemental.pdf)
 
 ## Requirements and Datasets
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory/)
