@@ -47,6 +47,7 @@ python test.py
 ```
 
 ### Running THI
+You first need to download the weights of [Qwen2VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) and use [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory/) to merge the [LoRA parameters](https://huggingface.co/Yangsss/ICL/blob/main/lora.tar.gz). The relevant files are already provided [here](https://huggingface.co/Yangsss/ICL).
 ```
 sh run_vllm_ICL.sh
 ```
