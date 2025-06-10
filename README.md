@@ -5,7 +5,8 @@ PyTorch implementation for [Human-centered Interactive Learning via MLLMs for Te
 
 ## New!
 - We will release the RDA pre-trained model weights and training logs. Come soon!
-- 2025/6/9, we released the code of ICL.
+- We will release code of ICL. Come soon!
+<!-- - 2025/6/9, we released the code of ICL. -->
 
 ## Requirements and Datasets
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory/)
@@ -20,7 +21,9 @@ The illustration of our Test-time Human-centered Interaction (THI) module. THI i
 
 ## Reorganization Data Augmentation
 The illustration of our RDA. The purpose of RDA is to supplement more details to the original training texts through human-centered VQA, improving the discriminability of texts. In addition, to enhance diversity, RDA maximizes diversity through the Decomposition-Rewriting-Reorganization strategy.
-<img src="./src/RDA.png" />
+<p align="center">
+<img src="./src/RDA.png" width="450" />
+</p>
 
 For all augmentation data, see [RDA_data.zip](./RDA_data.zip)
 
