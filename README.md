@@ -14,6 +14,8 @@ PyTorch implementation for [Human-centered Interactive Learning via MLLMs for Te
 - qwen_vl_utils
 - [CUHK-PEDES, ICFG-PEDES, RSTPReid,](https://github.com/anosorae/IRRA/) [UFine6926](https://github.com/Zplusdragon/UFineBench/)
 - Others as [RDE](https://github.com/QinYang79/RDE)
+> conda create --name myenv python=3.10\
+> pip install vllm,easydict,ftfy,prettytable,nltk,qwen_vl_utils
 
 ## THI Framework
 The illustration of our Test-time Human-centered Interaction (THI) module. THI includes $K$ rounds of interactions to align query intention with the latent target image by external guidance, where in each round, we perform human-centered visual question answering around fine-grained person attributes to enhance the semantic consistency between the query and the intended person image, and then improve the final ReID performance on the large-scale evaluation through efficient re-ranking. Besides, we perform supervised fine-tuning via LoRA to inspire the discriminative ability of MLLM for ReID domain images and better align queries with latent target images.
