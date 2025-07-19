@@ -5,7 +5,7 @@ PyTorch implementation for [Human-centered Interactive Learning via MLLMs for Te
 
 ## New!
 - We will release the RDA pre-trained model weights and training logs. Come soon!
-- We will release code of ICL. Come soon!
+<!-- - We will release code of ICL. Come soon! -->
 <!-- - 2025/6/9, we released the code of ICL. -->
 
 ## Requirements and Datasets
